@@ -1,0 +1,82 @@
+@charset="utf-8";
+
+
+
+					/*Tela de Cadastro */
+			body {
+				
+				background-image: url('livro6.png');
+				background-size: 100%;
+				background-repeat: no-repeat;
+				}
+			.cadastrotitulo {
+				position:relative;
+				text-align: center;
+				width: 50%;
+				top: 20%;
+				left: 50%;
+				color: white; 
+				text-shadow:black 0.1em 0.1em 0.2em;
+				transform: translate(-50%, -50%);
+			}
+			.cadastrovtl {
+				position:absolute;
+				text-align: center;
+				width: 50%;
+				top: 5%;
+				left: 5%;
+				color: white; 
+				text-shadow:black 0.1em 0.1em 0.2em;
+				transform: translate(-50%, -50%);
+			}
+			.cadastromeio {
+				position:absolute;
+				text-align: center;
+				background-color: white;
+				width: 60%;
+				top: 35%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+			.entradaCadastro {
+				text-align: center;
+			    text-decoration: none;
+				color: black;
+				border-bottom: 1px solid blue;
+			}	
+			.ds1cadastro {
+				text-align: center;
+				position: absolute;
+				width: 20%;
+				left: 40%;
+				color: white; 
+				text-shadow:black 0.1em 0.1em 0.2em;
+				display: inline-block;
+			}
+			
+			.button {
+				display: block;
+				margin-top: 1px;
+				border: 1px solid blue;
+				padding: 10px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 5px 5px;
+			}
+			
+			.buttonCadastrar {
+				width: 100%;
+				background-color: lightgreen ;
+				border-radius: 10px;
+				color: green;
+				margin-top: 20px;
+			}
+			
+			.buttonVoltar {
+				background-color: red;
+				border-radius: 10px;
+				color: red;
+				width:100%;
+			}

@@ -1,0 +1,144 @@
+@charset="utf-8";
+
+			body{
+			
+			background-image: url('livro1.png');
+			background-size: 100%;
+			background-repeat: no-repeat;
+			}
+			.ladodireito {
+				position:fixed;
+				width:30%;
+				height: 100%;
+				left: 70%;
+				background-image: url('livro2.png');
+				background-size: 100%;
+				background-repeat: no-repeat;
+			}
+			.vendatitulo {
+				position:absolute;
+				text-align: center;
+				width: 70%;
+				top: 15%;
+				left: 35%;
+				color: white;
+				text-shadow:black 0.1em 0.1em 0.2em;
+				transform: translate(-50%, -50%);
+			
+			}
+			
+			.grid-container {
+				display: grid;
+				grid-column-gap:10px;
+				grid-template-columns: auto auto auto;
+				background-color: #2196F3;
+				padding: 5px;
+			}
+
+			.grid-item {
+				background-color: rgba(150, 150, 150, 0.8);
+				border: 1px solid rgba(0, 0, 0, 0.8);
+				padding: 30px;
+				font-size: 20px;
+				text-align: center;
+			}
+			.gridvenda {
+				position:relative;
+				width:50%;
+				height: 0%;
+				top:35%;
+				left: 10%;
+				
+			}
+			
+
+			.search-container{
+				width: 490px;
+				display: block;
+				margin: 0 auto;
+			}
+
+			input#search-bar{
+				margin: 0 auto;
+				width: 110%;
+				height: 45px;
+				padding: 0 20px;
+				font-size: 1rem;
+				border: 1px solid #D0CFCE;
+				outline: none;
+			&:focus{
+				border: 1px solid #000000;
+				transition: 0.35s ease;
+				color: #000000;
+				&::-webkit-input-placeholder{
+				transition: opacity 0.45s ease; 
+				opacity: 0;
+			}
+				&::-moz-placeholder {
+				transition: opacity 0.45s ease; 
+				opacity: 0;
+			}
+				&:-ms-placeholder {
+				transition: opacity 0.45s ease; 
+				opacity: 0;
+			}    
+			}
+			}
+			.search-icon{
+				position: relative;
+				float: right;
+				width: 75px;
+				height: 75px;
+				top: -62px;
+				right: -45px;
+			}
+
+
+			.ds1venda {
+				text-align: center;
+				position: absolute;
+				width: 35%;
+				top: 10%;
+				left: 30%;
+				color: white;
+				text-shadow:black 0.1em 0.1em 0.2em;
+				display: inline-block;
+			}
+			
+			.button {
+				display: block;
+				margin-top: 1px;
+				border: 1px solid blue;
+				padding: 10px;
+				text-align: center;
+				text-decoration: none;
+				display: inline-block;
+				font-size: 16px;
+				margin: 5px 5px;
+			}
+			
+			.buttonEntrar {
+				width: 100%;
+				background-color: white;
+				border-radius: 20px;
+				color: blue;
+				margin-top: 20px;
+			}
+			
+			.buttonVoltar{
+				width: 50%;
+				background-color: white;
+				border-radius: 10px;
+				color: blue;
+				margin-top: 20px;
+			}
+			.voltar {
+				position:absolute;
+				text-align: center;
+				width: 10%;
+				top: 90%;
+				left: 5%;
+				color: white;
+				text-shadow:black 0.1em 0.1em 0.2em;
+				transform: translate(-50%, -50%);
+			}
